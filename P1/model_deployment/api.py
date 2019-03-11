@@ -57,21 +57,21 @@ parser.add_argument(
 
 parser.add_argument(
     'State', 
-    type=int, 
+    type=str, 
     required=True, 
     help=' ', 
     location='args')
 
 parser.add_argument(
     'Make', 
-    type=int, 
+    type=str, 
     required=True, 
     help=' ', 
     location='args')
 
 parser.add_argument(
     'Model', 
-    type=int, 
+    type=str, 
     required=True, 
     help=' ', 
     location='args')
